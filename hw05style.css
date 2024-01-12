@@ -1,0 +1,37 @@
+:root{
+  text-align: center ;
+}
+table{
+  margin: 20px auto;
+  font-size: 20px;
+  table-layout: fixed;
+  width: 520px;
+}
+caption{
+  font-size: 30px;
+  color: #394F8A;
+}
+table, thead, tbody, tfoot{
+  border: 5px solid #EAD6CD;
+}
+tr, th, td{
+  border: 2px solid #4A5FC1;
+}
+thead :not(th:first-child){
+  width: 150px;
+}
+thead{
+  background-color: #8cf5f8;
+}
+tfoot{
+  background-color: #a7e0e2;
+}
+tbody td:first-child {
+  background-color: #e29b91;
+}
+tbody > tr:nth-child(odd){
+  background-color: #c49684;
+}
+tbody > tr:nth-child(even){
+  background-color: #848ec4;
+}
